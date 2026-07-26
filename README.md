@@ -1,7 +1,5 @@
 # P.Y.K.V.Gowrish | Hardware Portfolio
 
-Th# P. Gowish | Portfolio
-
 This repository contains the source code for my personal portfolio website. It showcases my projects, technical skills, and learning journey in **RTL Design, Digital Design, Computer Architecture, and VLSI** as a B.Tech student in **Electronics and Communication Engineering**.
 
 ## 🌐 Live Website
@@ -28,7 +26,6 @@ It serves as a central place to showcase my projects, technical experience, and 
 
 - HTML5
 - CSS3
-- JavaScript
 - Git & GitHub
 - GitHub Pages
 
@@ -38,7 +35,7 @@ It serves as a central place to showcase my projects, technical experience, and 
 
 - **Digital Clock** – Verilog implementation on Basys3 FPGA
 - **HDLBits Solutions** – Comprehensive collection of digital design problems
-- **32-bit MIPS Single-Cycle Processor** – Verilog implementation and simulation
+- **Bfloat16-Floating-Point-Processor** – Verilog implementation and simulation
 - **RV32I Single-Cycle Processor** – Designed and verified in Verilog HDL
 - **RV32I 5-Stage Pipelined Processor** – Pipeline implementation with hazard detection and forwarding
 - **UART Transmitter & Receiver** – RTL design and verification
@@ -51,8 +48,9 @@ I am actively pursuing opportunities in:
 
 - RTL Design
 - Frontend VLSI
+- Backend VLSI
+- Physical Design
 - Digital Design
-- Computer Architecture
 - ASIC Design
 
 ---
@@ -61,8 +59,8 @@ I am actively pursuing opportunities in:
 
 - **Portfolio:** https://venkatgowrish07-hub.github.io/
 - **GitHub:** https://github.com/venkatgowrish07-hub
-- **LinkedIn:** *(Add your LinkedIn profile link here)*
-- **Email:** *(Add your email here)*
+- **LinkedIn:** *https://www.linkedin.com/in/yuva-punnam-06833a369/*
+- **Email:** *venkatgowrish07@gmail.com*
 
 ---
 
