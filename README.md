@@ -1,2 +1,71 @@
-# venkatgowrish07-hub.github.io
-personal portfolio showcasing my projects in RTL Design, Computer Architecture, and VLSI. It features Verilog-based processor designs, FPGA implementations, and hands-on experience with RISC-V architecture, digital design, and physical design tools.
+# P.Y.K.V.Gowrish | Hardware Portfolio
+
+Th# P. Gowish | Portfolio
+
+This repository contains the source code for my personal portfolio website. It showcases my projects, technical skills, and learning journey in **RTL Design, Digital Design, Computer Architecture, and VLSI** as a B.Tech student in **Electronics and Communication Engineering**.
+
+## 🌐 Live Website
+**https://venkatgowrish07-hub.github.io/**
+
+---
+
+## 🚀 About
+
+The portfolio highlights my work in:
+
+- RTL Design using Verilog HDL
+- FPGA-based Digital Design
+- RISC-V Processor Design
+- Computer Architecture
+- VLSI Frontend Design
+- RTL-to-GDSII Learning
+
+It serves as a central place to showcase my projects, technical experience, and continuous learning in semiconductor design.
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript
+- Git & GitHub
+- GitHub Pages
+
+---
+
+## 📂 Featured Projects
+
+- **Digital Clock** – Verilog implementation on Basys3 FPGA
+- **HDLBits Solutions** – Comprehensive collection of digital design problems
+- **32-bit MIPS Single-Cycle Processor** – Verilog implementation and simulation
+- **RV32I Single-Cycle Processor** – Designed and verified in Verilog HDL
+- **RV32I 5-Stage Pipelined Processor** – Pipeline implementation with hazard detection and forwarding
+- **UART Transmitter & Receiver** – RTL design and verification
+
+---
+
+## 🎯 Career Interests
+
+I am actively pursuing opportunities in:
+
+- RTL Design
+- Frontend VLSI
+- Digital Design
+- Computer Architecture
+- ASIC Design
+
+---
+
+## 📬 Contact
+
+- **Portfolio:** https://venkatgowrish07-hub.github.io/
+- **GitHub:** https://github.com/venkatgowrish07-hub
+- **LinkedIn:** *(Add your LinkedIn profile link here)*
+- **Email:** *(Add your email here)*
+
+---
+
+Thank you for visiting my portfolio!his for fun purpose and these projects are mine."
+
+Contact: [venkatgowrish07@gmail.com](mailto:venkatgowrish07@gmail.com)
