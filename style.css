@@ -1,300 +1,158 @@
-*{margin:0;padding:0;box-sizing:border-box;font-family:Poppins,sans-serif}
-html{scroll-behavior:smooth}
-body{background:#070b14;color:#e5e7eb}
-header{position:fixed;top:0;width:100%;display:flex;justify-content:space-between;align-items:center;padding:18px 8%;background:rgba(7,11,20,.88);backdrop-filter:blur(14px);z-index:99;border-bottom:1px solid #1f2937}
-.logo{font-size:1.6rem;font-weight:700;color:#38bdf8}
-nav a{text-decoration:none;color:#fff;margin-left:28px}
-nav a:hover{color:#38bdf8}
-section{padding:90px 8%}
-.hero{min-height:100vh;display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:60px}
-.hero h1{font-size:3.7rem}
-.hero h1 span{color:#38bdf8}
-.hero p{margin:20px 0;color:#9ca3af;line-height:1.8}
-.btn{display:inline-block;padding:14px 28px;background:#38bdf8;color:#08111d;text-decoration:none;border-radius:40px;font-weight:600}
-.btn:hover{transform:translateY(-3px)}
-.hero img{width:340px;height:340px;border-radius:50%;object-fit:cover;border:4px solid #334155;box-shadow:none}
-.title{text-align:center;font-size:2.3rem;color:#38bdf8;margin-bottom:45px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
-.card{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);padding:24px;border-radius:18px;transition:.3s}
-.card:hover{transform:translateY(-8px);border-color:#38bdf8}
-.card h3{color:#38bdf8;margin-bottom:10px}
-.skills .card{text-align:center;font-weight:600}
-footer{text-align:center;padding:30px;background:#020617;color:#94a3b8}
-@media(max-width:900px){
-.hero{grid-template-columns:1fr;text-align:center}
-.hero img{width:240px;height:240px;margin:auto}
-header{flex-direction:column;gap:10px}
-nav a{margin:0 10px}
-}
-.card{
-    background:#161b22;
-    border:1px solid #2d3748;
-    border-radius:18px;
-    padding:25px;
-    color:#fff;
-    text-decoration:none;
+<!DOCTYPE html>
 
-    display:flex;
-    flex-direction:column;
-}
-
-.card p{
-    flex:1;
-    line-height:1.8;
-}
-
-.project-btn{
-    display:inline-block;
-    padding:10px 20px;
-    margin-top:30px;
-    align-self:flex-start;
-
-    background:#38bdf8;
-    color:#08111d;
-    text-decoration:none;
-    border-radius:8px;
-    font-weight:600;
-    transition:.3s;
-}
-
-.project-btn:hover{
-    background:#fff;
-    transform:translateY(-2px);
-}
-
-.projects-grid{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
-    gap:30px;
-    align-items:stretch;
-};
-
-.contact{
-    padding:90px 8%;
-    background:#060d1a;
-}
-
-.section-title{
-    text-align:center;
-    color:#38bdf8;
-    font-size:40px;
-    margin-bottom:50px;
-}
-
-.contact-container{
-    display:grid;
-    grid-template-columns:1fr 1.2fr;
-    background:#0d1729;
-    border-radius:20px;
-    overflow:hidden;
-    box-shadow:0 0 30px rgba(0,0,0,.35);
-}
-
-.contact-info{
-    padding:50px;
-    background:linear-gradient(135deg,#0ea5e9,#2563eb);
-    color:#fff;
-}
-
-.contact-info h3{
-    font-size:32px;
-    margin-bottom:20px;
-}
-
-.contact-info p{
-    line-height:1.8;
-    margin-bottom:35px;
-}
-
-.info-item{
-    display:flex;
-    align-items:center;
-    gap:15px;
-    margin:20px 0;
-    font-size:18px;
-}
-
-.info-item i{
-    width:42px;
-    height:42px;
-    border-radius:50%;
-    background:#ffffff20;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-size:18px;
-}
-
-.social-links{
-    display:flex;
-    gap:18px;
-    margin-top:40px;
-}
-
-.social-links a{
-    width:48px;
-    height:48px;
-    border-radius:50%;
-    border:2px solid white;
-    color:white;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    text-decoration:none;
-    transition:.3s;
-    font-size:20px;
-}
-
-.social-links a:hover{
-    background:white;
-    color:#0ea5e9;
-    transform:translateY(-5px);
-}
-
-@media(max-width:900px){
-
-.contact-container{
-    grid-template-columns:1fr;
-}
-
-.contact-info,
-.contact-form{
-    padding:35px;
-}
-
-}
-/* =======================
-   MOBILE RESPONSIVE
-======================= */
-
-@media (max-width:768px){
-
-    body{
-        overflow-x:hidden;
-    }
-
-    .container{
-        width:92%;
-        margin:auto;
-    }
-
-    /* Navbar */
-
-    nav{
-        padding:15px 0;
-    }
-
-    nav ul{
-        gap:20px;
-        flex-wrap:wrap;
-        justify-content:center;
-    }
-
-    /* Hero */
-
-    .hero{
-        flex-direction:column-reverse;
-        text-align:center;
-        padding:50px 0;
-    }
-
-    .hero-content{
-        width:100%;
-    }
-
-    .hero-image{
-        width:100%;
-        display:flex;
-        justify-content:center;
-        margin-bottom:30px;
-    }
-
-    .hero-image img{
-        width:220px;
-        height:220px;
-        object-fit:cover;
-    }
-
-    h1{
-        font-size:48px;
-        line-height:1.1;
-    }
-
-    h2{
-        font-size:30px;
-    }
-
-    p{
-        font-size:18px;
-        line-height:1.8;
-    }
-
-    /* Buttons */
-
-    .hero-buttons{
-       flex-direction:column;
-       align-items:center;
-    }
-
-    .hero-buttons .btn{
-       width:90%;
-       max-width:320px;
-    }
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1.0" name="viewport"/>
+<title>P.Y.K.V.Gowish | VLSI Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="style.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+<header>
+<div class="logo">P.Y.K.V.Gowish</div>
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+<section class="hero">
+<div>
+<h1>Hi, I'm <span>P.Y.K.V.Gowish</span></h1>
+<h3>ECE Student • RTL Design • Physical Design • VLSI</h3>
+<p>I am a third-year Electronics &amp; Communication Engineering student passionate about RTL Design, FPGA implementation, Logic Synthesis, Static Timing Analysis and the complete RTL-to-GDSII flow. I am building practical VLSI projects while learning Yosys, OpenSTA and OpenROAD.</p>
 
 
-    .btn{
-        width:250px;
-        text-align:center;
-    }
 
-    /* Skills */
-
-    .skills-grid{
-        grid-template-columns:1fr;
-    }
-
-    /* Projects */
-
-    .projects-grid{
-        grid-template-columns:1fr;
-    }
-
-    .project-card{
-        width:100%;
-    }
-
-    /* Contact */
-
-    .contact-links{
-        flex-direction:column;
-        align-items:center;
-    }
-
-}
+<div class="hero-buttons"><a class="btn" href="resume.pdf">Download Resume</a><a class="btn github-btn" href="https://github.com/venkatgowrish07-hub" target="_blank">
+<i class="fab fa-github"></i> GitHub
+</a><a class="btn linkedin-btn" href="https://www.linkedin.com/in/yuva-punnam-06833a369/" target="_blank">
+<i class="fab fa-linkedin"></i> LinkedIn
+</a></div></div>
+<div style="text-align:center">
+<img alt="Profile" src="profile.jpg"/>
+</div>
+</section>
+<section id="about">
+<h2 class="title">About Me</h2>
+<div class="card">
+<p>I am an Electronics and Communication Engineering (ECE) student with a strong interest in VLSI Design, RTL Design, Physical Design, and Computer Architecture. I have a solid foundation in Digital Electronics, CMOS Technology, Verilog HDL, C/C++, and Data Structures, along with a good understanding of the complete RTL-to-GDSII design flow.
 
 
-/* Contact section simplified */
-.contact-container{
-max-width:700px;
-margin:0 auto;
-grid-template-columns:1fr !important;
-background:linear-gradient(135deg,#0ea5e9,#2563eb);
-border-radius:20px;
-overflow:hidden;
-box-shadow:0 0 30px rgba(0,0,0,.35);
-}
 
-.contact-info{
-padding:60px;
-background:transparent;
-}
+My technical skills include RTL design and verification, FPGA implementation, RISC-V processor design, and digital system development. I am familiar with Physical Design concepts such as Floorplanning, Placement, Clock Tree Synthesis (CTS), Routing, Static Timing Analysis (STA), and Physical Verification.
 
-@media(max-width:768px){
-.contact-info{
-padding:35px;
-}
-.social-links{
-justify-content:center;
-flex-wrap:wrap;
-}
-}
+
+
+Through academic projects, I have gained hands-on experience in designing, simulating, and debugging digital hardware using Verilog and FPGA platforms. I am passionate about semiconductor technology and continuously expanding my knowledge in ASIC Design, Physical Design, and Digital IC Design.</p>
+</div>
+</section>
+<section class="skills" id="skills">
+<h2 class="title">Technical Skills</h2>
+<div class="grid">
+<div class="card">Verilog HDL</div>
+<div class="card">RTL Design</div>
+<div class="card">C / C++</div>
+<div class="card">Vivado</div>
+<div class="card">Yosys</div>
+<div class="card">OpenSTA</div>
+<div class="card">OpenROAD</div>
+<div class="card">Git &amp; GitHub</div>
+<div class="card">Linux</div>
+<div class="card">Static Timing Analysis</div>
+</div>
+</section>
+<section id="projects">
+<h2 class="title">Featured Projects</h2>
+<div class="grid">
+<div class="card">
+<h3>Single-Cycle RV32I Processor</h3>
+<p>A complete 32-bit RV32I RISC-V processor designed and implemented in Verilog HDL, featuring RTL architecture. The project includes functional simulation and verification using testbenches, successful deployment on the Basys3 FPGA board for real-time hardware validation through execution of program of Fibonacci sequence.</p>
+<a class="project-btn" href="https://github.com/venkatgowrish07-hub/Single-Cycle-RV32I" target="_blank">
+       GitHub
+    </a>
+</div>
+<div class="card">
+<h3>UART Communication System on FPGA</h3>
+<p>Real-time UART communication system using Verilog on the Basys3 FPGA. The project demonstrates UART transmission, FPGA memory buffering, 7-segment display visualization, and hardware-software integration through USB-UART communication for real-time data transfer and debugging.</p>
+<a class="project-btn" href="https://github.com/venkatgowrish07-hub/UART" target="_blank">
+       GitHub
+    </a>
+</div>
+<div class="card">
+<h3>Bfloat16 - Floating - Point - Processor</h3>
+<p>A complete 16-bit BFloat16 floating-point processor designed and implemented in Verilog HDL, featuring modular RTL architecture, simulation verification, and FPGA deployment capabilities. The project includes successful implementation of arithmetic operations on real hardware2-bit RV32I processor implemented in Verilog with simulation and FPGA deployment.</p>
+<a class="project-btn" href="https://github.com/venkatgowrish07-hub/bfloat16-Floating-Point-Processor" target="_blank">
+       GitHub
+    </a>
+</div>
+<div class="card">
+<h3>RV32I 5-Stage Pipelined Processor</h3>
+<p>A 32-bit 5-stage pipelined RISC-V processor implemented in Verilog and deployed on the Basys3 FPGA. The design includes pipeline registers, forwarding, and hazard detection, and successfully executes a Fibonacci program to demonstrate efficient instruction-level parallelism and improved performance over a single-cycle architecture.</p>
+<a class="project-btn" href="https://github.com/venkatgowrish07-hub/RV32I-5-STAGE_PIPELINED" target="_blank">
+       GitHub
+    </a>
+</div>
+<div class="card">
+<h3>Digital Clock</h3>
+<p>Digital clock implemented in Verilog on the Basys3 FPGA board. A clock divider converts the 100 MHz onboard clock to a 1 Hz signal to drive seconds counting, and the time is displayed on the Basys3 seven-segment display.</p>
+<a class="project-btn" href="https://github.com/venkatgowrish07-hub/DIgital-Clock" target="_blank">
+       GitHub
+    </a>
+</div>
+<div class="card">
+<h3>HDLbits Solutions</h3>
+<p>My Verilog solutions to HDLBits problems, covering digital logic design concepts such as combinational circuits, sequential logic, finite state machines, counters, and arithmetic circuits.</p>
+<a class="project-btn" href="https://github.com/venkatgowrish07-hub/HDLbits-Solutions" target="_blank">
+       GitHub
+    </a>
+</div>
+</div>
+</section>
+<section class="contact" id="contact">
+<h2 class="section-title">Contact Me</h2>
+<div class="contact-container">
+<!-- Left Side -->
+<div class="contact-info">
+<h3>Let's Connect</h3>
+<p>
+                I'm actively looking for internships and opportunities in
+                RTL Design, FPGA Design and Physical Design.
+                Feel free to reach out.
+            </p>
+<div class="info-item">
+<i class="fas fa-envelope"></i>
+<span>venkatgowrish07@gmail.com</span>
+</div>
+<div class="info-item">
+<i class="fas fa-phone"></i>
+<span>+91 7801084576</span>
+</div>
+<div class="info-item">
+<i class="fas fa-map-marker-alt"></i>
+<span>Rajahmundry, India</span>
+</div>
+<div class="social-links">
+<a href="https://github.com/venkatgowrish07-hub" target="_blank">
+<i class="fab fa-github"></i>
+</a>
+<a href="https://www.linkedin.com/in/yuva-punnam-06833a369/" target="_blank">
+<i class="fab fa-linkedin"></i>
+</a>
+<a href="mailto:venkatgowrish07@gmail.com">
+<i class="fas fa-envelope"></i>
+</a>
+<a href="https://instagram.com/itzz_yuva_" target="_blank">
+<i class="fab fa-instagram"></i>
+</a>
+</div>
+</div>
+<!-- Right Side -->
+</div>
+</section>
+<footer>© 2026 P. Gowish • Built with HTML &amp; CSS</footer>
+</body>
+</html>
