@@ -315,3 +315,80 @@ nav a{margin:0 10px}
     }
 
 }
+
+
+
+/* ===== Responsive fixes ===== */
+.hero h1{font-size:clamp(2.5rem,8vw,4rem);}
+.hero img{width:100%;max-width:340px;height:auto;aspect-ratio:1;}
+
+.hero-buttons{
+display:flex;
+gap:16px;
+flex-wrap:wrap;
+margin-top:30px;
+align-items:center;
+}
+
+.hero-buttons .btn{
+text-align:center;
+}
+
+.contact-container{
+width:100%;
+max-width:1200px;
+margin:0 auto;
+}
+
+.info-item{
+align-items:flex-start;
+}
+
+.info-item span{
+overflow-wrap:anywhere;
+word-break:break-word;
+}
+
+@media(max-width:768px){
+
+.hero{
+grid-template-columns:1fr;
+text-align:center;
+gap:40px;
+}
+
+.hero-buttons{
+flex-direction:column;
+}
+
+.hero-buttons .btn{
+width:100%;
+max-width:320px;
+margin:0;
+}
+
+header{
+padding:15px;
+}
+
+nav{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:15px;
+}
+
+nav a{
+margin:0;
+}
+
+.contact-container{
+grid-template-columns:1fr;
+}
+
+.social-links{
+justify-content:center;
+flex-wrap:wrap;
+}
+
+}
