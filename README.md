@@ -3,7 +3,7 @@
 This repository contains the source code for my personal portfolio website. It showcases my projects, technical skills, and learning journey in **RTL Design, Digital Design, Computer Architecture, and VLSI** as a B.Tech student in **Electronics and Communication Engineering**.
 
 ## 🌐 Live Website
-**https://venkatgowrish07-hub.github.io/**
+**https://venkatgowrish.github.io/**
 
 ---
 
